@@ -1,0 +1,39 @@
+label {
+    font-weight: bold;
+}
+
+.new-expense__control {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 20%;
+    margin-bottom: 10px;
+}
+
+.new-expense__actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px 20%;
+}
+
+input {
+    border-radius: 0.7em;
+    padding: 2px 7px;
+    border: 0px;
+    outline: none;
+    font-size: 0.7em;
+}
+
+button {
+    border: 1.5px solid white;
+    border-radius: 0.7em;
+    padding: 2px 7px;
+    background-color: turquoise;
+}
+
+.add-new-expenses-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
